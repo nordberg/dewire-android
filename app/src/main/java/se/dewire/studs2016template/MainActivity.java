@@ -3,11 +3,13 @@ package se.dewire.studs2016template;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     private DewireContestConnection s = null;
 
-    private static String GROUP_TAG = "Grp123";     //Change this to your group name
+    private static String GROUP_TAG = "Grp-"+Math.abs((new Random()).nextInt()%100000);     //Change this to your group name
 
 
     @Override

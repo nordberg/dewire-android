@@ -8,8 +8,8 @@ Studs2016-eventet hos Dewire Consultants AB.
 Uppgiften går ut på att bygga en Androidapp som kan användas som ett slags tangentbord
 utan att touchskärmen används till inmatning. Detta innebär således att det är tillåtet
 att presentera information med skärmen. Endast att vidröra skärmen för att mata in text
-är alltså förbjudet. Hårdvaruknappar är tillåtna. Endast svenska gemener, mellanrum samt 
-punkt behöver kunna skrivas. Se `Tävlingssystemet` för fler detaljer.
+är alltså förbjudet. Hårdvaruknappar är tillåtna. Endast svenska gemener samt 
+mellanrum behöver kunna skrivas. Se `Tävlingssystemet` för fler detaljer.
 
 ####Begränsningar
 Appen får byggas med med enda begränsningen att kodbibliotek och API:er som i sin helhet

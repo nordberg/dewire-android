@@ -61,6 +61,8 @@ annars registreras inte tiden. För att förtydliga, hela din textsträng ska sk
 fel oavsett. Kalla ej på denna funktion överdrivet eller onödigt mycket, då det skapar onödig trafik
 till tävlingssystemet.
 
+Kom ihåg att om updateString används innan tävlingen startat så kan andra deltagare se hur snabbt ni skriver!
+
 Vid problem, prata med någon från Dewire.
 
 

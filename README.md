@@ -82,8 +82,8 @@ med textfältet i interfacet så måste man först notera dess typ `TextView` oc
 En `TextView` är precis som alla andra tänkbara element i en layout också i grunden en `View`.
 Först när en activity skapas i `protected void onCreate(Bundle savedInstanceState)` så måste man
 definiera layouten som ska användas, och därefter instansieras alla alla Views i den, och dessa
-kan användas. Detta görs i `setContentView(R.layout.activity_main);`. Som kanske kan anas så pekar
-`R.layout.activity_main` på `activity_main.xml`.
+kan användas. Detta görs automatiskt av `setContentView(R.layout.activity_main);`. Här refererar
+`R.layout.activity_main` till `activity_main.xml`.
 
 Sen kan man exempelvis ändra text i textvyn:
 Här är id-värdet `hellotext` för textvyn, och då kan man lägga in kod i MainActivity.java

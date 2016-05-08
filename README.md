@@ -1,3 +1,20 @@
+## GRUPP "De Fyra Vännerna och Simon" från Studs 2016
+
+Vår lösning bygger på ett antal boxar med bokstäver i. Först delas alfabetet
+in i fyra olika boxar ("abcdefg", "hijklmno", "pqrstuv", "wxyzåäö") typ.
+Mobilen ska hållas i liggande läge (fast UI:t ska vara stående liksom, vår
+testmobil gick inte att låsa i liggande läge så vi roterade en stående vy
+90' istället). Man vickar sedan mobilet åt ett håll för att "välja" en box.
+Väljer man t.ex. boxen "abcdefg" kommer den boxen att delas upp i boxarna
+"ab", "cd", "ef", "g " (g och whitespace). Man väljer en ny box genom att
+vicka mobilen åt något håll och gör sedan slutgiltigt val (vänster för "a" och
+höger för "b" t.ex.).
+
+Efter varje "val av box" stänger vi av lyssningen av sensorn. Därför måste man
+sätta på den efter varje val med Volym-ner-knappen. Detta för att man annars
+råkade göra två t.ex. "vänstervickningar" när man bara skulle till vänster en
+gång.
+
 # # Kodskelett för Studs2016/Dewire-event
 Github-repository för kodskelett och instruktioner för uppgiften i 
 Studs2016-eventet hos Dewire Consultants AB.
